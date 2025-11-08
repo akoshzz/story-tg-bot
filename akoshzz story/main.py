@@ -2,7 +2,7 @@ import telebot
 from telebot import types
 import json, os
 
-TOKEN = "8291059047:AAEHgY7CPnuFS4V8DSwW1d_AGFWu3aqAIgc"
+TOKEN = ""
 bot = telebot.TeleBot(TOKEN)
 
 STORY_PATH = "data/stories"
@@ -60,3 +60,4 @@ def handle_choice(call):
 
 print("🤖 Bot is running...")
 bot.polling(none_stop=True)
+
